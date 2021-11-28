@@ -1,0 +1,8 @@
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- git: {local-name: ros_industrial_cmake_boilerplate, uri: 'https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git',
+    version: 0.2.12}
+- git: {local-name: stomp, uri: 'https://github.com/ros-industrial/stomp.git', version: main}
